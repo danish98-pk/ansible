@@ -1,4 +1,5 @@
 - name: check disk space
+  hosts: danishkhalid-mac
   tasks:
     - name: get disk usage
       ansible.builtin.command: df -h
